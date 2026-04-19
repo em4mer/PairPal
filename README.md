@@ -44,7 +44,7 @@ php -S localhost:8000
 ```
 pairpal/
 ├── index.php                   # Main router (POST handler runs FIRST)
-├── setup.php                   # One-time setup helper (delete after use)
+├── setup.php                   # One-time setup helper (can be deleted after, optional)
 │
 ├── controllers/
 │   ├── AuthController.php      # Login, logout, session management
