@@ -114,7 +114,7 @@ pairpal/
 - View product detail pages with reviews
 - Featured products, trending items, bundle deals sections
 - Slide-out cart with real-time bundle discount detection
-- Checkout with name/address/contact — order saved to `orders.json`
+- Checkout with name/address/contact - order saved to `orders.json`
 - Order tracking via tracking code
 - Submit product reviews (1–5 stars)
 
@@ -138,9 +138,9 @@ pairpal/
 
 ---
 
-## PairPal Intelligence
+## PairPal "Intelligence"
 
-All AI logic is **rule-based** — no external APIs.
+All AI logic is **rule-based** - no external APIs.
 
 - **Auto bundle detection** - checks active bundles against cart contents; auto-applies discount
 - **Upsell prompts** - detects which bundle is 1 item away from completion
