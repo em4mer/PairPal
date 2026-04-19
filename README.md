@@ -109,7 +109,7 @@ pairpal/
 
 ## Features by Role
 
-### Customer (public, no login)
+### Customer (public, guests can view the website but not interact, need to sign up)
 - Browse product catalog with search & category filter
 - View product detail pages with reviews
 - Featured products, trending items, bundle deals sections
