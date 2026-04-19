@@ -6,7 +6,7 @@
 
 1. **Deploy** - Place the `pairpal/` folder in your web root (e.g. `htdocs/`, `www/`, or `public_html/`)
 
-2. **Fix permissions** — Run setup.php: *this is optional*
+2. **Fix permissions** - Run setup.php: *this is optional*
    ```
    # Browser:  http://localhost/pairpal/setup.php
    # Terminal: php setup.php
