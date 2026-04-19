@@ -4,7 +4,7 @@
 
 ### Setup Steps
 
-1. **Deploy** — Place the `pairpal/` folder in your web root (e.g. `htdocs/`, `www/`, or `public_html/`)
+1. **Deploy** - Place the `pairpal/` folder in your web root (e.g. `htdocs/`, `www/`, or `public_html/`)
 
 2. **Fix permissions** — Run setup.php: *this is optional*
    ```
@@ -142,18 +142,18 @@ pairpal/
 
 All AI logic is **rule-based** — no external APIs.
 
-- **Auto bundle detection** — checks active bundles against cart contents; auto-applies discount
-- **Upsell prompts** — detects which bundle is 1 item away from completion
-- **Complementary suggestions** — co-purchase frequency ranking + category fallback  
-- **Dynamic bundle generation** — rebuilds `bundles.json` from `pairpal_data.json` after each sale
-- **Slow mover detection** — products with ≤2 sales in 30 days, adequate stock
-- **Restock suggestions** — scored by `sales_qty / (stock + 1)` urgency
+- **Auto bundle detection** - checks active bundles against cart contents; auto-applies discount
+- **Upsell prompts** - detects which bundle is 1 item away from completion
+- **Complementary suggestions** - co-purchase frequency ranking + category fallback  
+- **Dynamic bundle generation** - rebuilds `bundles.json` from `pairpal_data.json` after each sale
+- **Slow mover detection** - products with ≤2 sales in 30 days, adequate stock
+- **Restock suggestions** - scored by `sales_qty / (stock + 1)` urgency
 
 ---
 
 ## Known Deployment Notes
 
-- **Permissions** — Run `setup.php` first. The `data/` dir needs `0775` and JSON files need `0664`
-- **HTTPS** — Recommended for production; update session cookie params in `AuthController`
-- **Image uploads** — Max 2MB per image; JPG/PNG/WebP only; stored in `assets/img/products/`
-- **Session** — Uses PHP file sessions; for multi-server setups, configure a shared session handler
+- **Permissions** - Run `setup.php` first. The `data/` dir needs `0775` and JSON files need `0664`
+- **HTTPS** - Recommended for production; update session cookie params in `AuthController`
+- **Image uploads** - Max 2MB per image; JPG/PNG/WebP only; stored in `assets/img/products/`
+- **Session** - Uses PHP file sessions; for multi-server setups, configure a shared session handler
