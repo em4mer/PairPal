@@ -34,12 +34,10 @@ body {
   line-height: 1.6;
 }
 
-/* ===================== SCROLLBAR ===================== */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg2); }
 ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
 
-/* ===================== LOGIN PAGE ===================== */
 .page-login { display: flex; align-items: stretch; min-height: 100vh; }
 
 .login-wrapper { display: flex; width: 100%; min-height: 100vh; }
@@ -104,7 +102,6 @@ body {
 .login-sub { color: var(--text2); margin-bottom: 2rem; }
 .login-hint { margin-top: 1.5rem; color: var(--text3); text-align: center; }
 
-/* ===================== SIDEBAR ===================== */
 .sidebar {
   position: fixed; top: 0; left: 0;
   width: var(--sidebar-w); height: 100vh;
@@ -190,7 +187,6 @@ body {
 }
 .btn-logout:hover { color: var(--red); border-color: var(--red); background: rgba(240,80,96,0.08); }
 
-/* ===================== MAIN CONTENT ===================== */
 .main-content {
   margin-left: var(--sidebar-w);
   min-height: 100vh;
@@ -215,7 +211,6 @@ body {
 
 .page-body { padding: 1.75rem; flex: 1; }
 
-/* ===================== CARDS ===================== */
 .card {
   background: var(--bg2);
   border: 1px solid var(--border);
@@ -231,7 +226,6 @@ body {
 .card-half { flex: 1; min-width: 280px; }
 .card-full { width: 100%; }
 
-/* ===================== DASHBOARD GRID ===================== */
 .dashboard-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -251,7 +245,6 @@ body {
 .insight-icon { font-size: 1.2rem; color: var(--accent); flex-shrink: 0; }
 .insight-text { font-size: 0.9rem; color: var(--text); }
 
-/* ===================== STAT CARDS ===================== */
 .stat-card {
   background: var(--bg2); border: 1px solid var(--border);
   border-radius: var(--radius-lg); padding: 1.25rem;
@@ -272,7 +265,6 @@ body {
 .stat-sub { font-size: 0.78rem; color: var(--text3); margin-top: 0.25rem; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-/* ===================== PAIRING INSIGHTS ===================== */
 .pairing-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; padding: 1rem 1.25rem; }
 .pairing-card {
   background: var(--bg3); border: 1px solid var(--border2);
@@ -288,7 +280,6 @@ body {
 .pairing-plus { color: var(--text3); font-size: 1rem; }
 .pairing-freq { font-size: 0.75rem; color: var(--text3); margin-top: 0.4rem; }
 
-/* ===================== TABLES ===================== */
 .data-table { width: 100%; border-collapse: collapse; }
 .data-table th {
   background: var(--bg3); color: var(--text3);
@@ -313,11 +304,9 @@ body {
 .empty-state { padding: 1.5rem 1.25rem; color: var(--text3); font-size: 0.875rem; }
 
 .desc-cell { max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-/* action-cell — see orders-table section below */
 
 code { font-size: 0.8rem; color: var(--text3); background: var(--bg3); padding: 2px 6px; border-radius: 4px; }
 
-/* ===================== BADGES ===================== */
 .stock-badge {
   display: inline-block; padding: 2px 8px; border-radius: 99px;
   font-size: 0.75rem; font-weight: 600; letter-spacing: 0.02em;
@@ -338,7 +327,6 @@ code { font-size: 0.8rem; color: var(--text3); background: var(--bg3); padding: 
   margin-right: 4px;
 }
 
-/* ===================== FORMS ===================== */
 .form-group { display: flex; flex-direction: column; gap: 0.375rem; }
 .form-group label { font-size: 0.8rem; color: var(--text2); font-weight: 500; }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
@@ -359,7 +347,6 @@ input::placeholder, textarea::placeholder { color: var(--text3); }
 select option { background: var(--bg3); }
 textarea { resize: vertical; min-height: 80px; }
 
-/* ===================== BUTTONS ===================== */
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
   gap: 0.4rem; padding: 0.55rem 1.2rem;
@@ -392,7 +379,6 @@ textarea { resize: vertical; min-height: 80px; }
 .btn-sm { padding: 0.35rem 0.75rem; font-size: 0.8rem; }
 .btn-full { width: 100%; }
 
-/* ===================== PAGE CONTROLS ===================== */
 .page-controls {
   display: flex; align-items: center; gap: 0.75rem;
   margin-bottom: 1.25rem; flex-wrap: wrap;
@@ -400,7 +386,6 @@ textarea { resize: vertical; min-height: 80px; }
 .search-bar { display: flex; align-items: center; gap: 0.5rem; flex: 1; flex-wrap: wrap; }
 .search-bar input, .search-bar select { flex: 1; min-width: 120px; }
 
-/* ===================== MODAL ===================== */
 .modal-overlay {
   position: fixed; inset: 0; z-index: 200;
   background: rgba(0,0,0,0.7);
@@ -432,7 +417,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
   padding: 1rem 1.5rem; border-top: 1px solid var(--border);
 }
 
-/* The generic overlay/modal used in layout */
 #modal-overlay {
   display: none; position: fixed; inset: 0; z-index: 199;
   background: rgba(0,0,0,0.5);
@@ -445,7 +429,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
   top: 50%; left: 50%; transform: translate(-50%,-50%);
 }
 
-/* ===================== TOAST ===================== */
 .toast {
   position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 999;
   background: var(--bg2); border: 1px solid var(--border2);
@@ -460,7 +443,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .toast.success { border-color: var(--green); color: var(--green); }
 .toast.error   { border-color: var(--red);   color: var(--red); }
 
-/* ===================== ALERTS ===================== */
 .alert {
   padding: 0.75rem 1rem; border-radius: var(--radius);
   font-size: 0.875rem; border: 1px solid;
@@ -468,7 +450,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .alert-error { background: rgba(240,80,96,0.1); border-color: rgba(240,80,96,0.3); color: var(--red); }
 .alert-success { background: rgba(64,212,160,0.1); border-color: rgba(64,212,160,0.3); color: var(--green); }
 
-/* ===================== POS LAYOUT ===================== */
 .pos-layout {
   display: grid; grid-template-columns: 1fr 360px;
   gap: 1.25rem; height: calc(100vh - 56px - 3.5rem);
@@ -517,7 +498,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .product-card:hover .product-card-add { transform: translateY(0); }
 .empty-catalog { grid-column: 1/-1; text-align: center; padding: 3rem; color: var(--text3); }
 
-/* Recommendations */
 .rec-section { background: var(--bg2); border: 1px solid rgba(240,192,64,0.2); border-radius: var(--radius-lg); overflow: hidden; }
 .rec-header { padding: 0.6rem 1rem; font-size: 0.8rem; font-family: var(--font-head); font-weight: 700; color: var(--accent); border-bottom: 1px solid rgba(240,192,64,0.15); }
 .rec-strip { display: flex; gap: 0.5rem; padding: 0.75rem; overflow-x: auto; }
@@ -531,7 +511,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .rec-name { font-size: 0.8rem; font-weight: 500; color: var(--text); margin-bottom: 2px; }
 .rec-price { font-size: 0.78rem; color: var(--accent); font-family: var(--font-head); font-weight: 700; }
 
-/* Cart Panel */
 .pos-cart {
   background: var(--bg2); border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -585,7 +564,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .cart-total-row { font-size: 1.1rem; color: var(--text); }
 .cart-change-row { color: var(--green); }
 
-/* ===================== RECEIPT ===================== */
 .receipt-modal { max-width: 380px; }
 .receipt { padding: 1.5rem; font-size: 0.85rem; }
 .receipt-header { text-align: center; margin-bottom: 1rem; }
@@ -601,7 +579,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .receipt-row.bold { color: var(--green); font-weight: 700; font-family: var(--font-head); font-size: 1.05rem; }
 .receipt-footer { text-align: center; margin-top: 1.25rem; color: var(--text3); font-size: 0.78rem; line-height: 1.6; }
 
-/* ===================== HISTORY / DETAIL ===================== */
 .detail-content { padding: 1.25rem 1.5rem; }
 .detail-meta { display: grid; gap: 0.4rem; margin-bottom: 1rem; }
 .detail-meta div { font-size: 0.875rem; color: var(--text2); }
@@ -610,7 +587,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .detail-row { display: flex; justify-content: space-between; font-size: 0.875rem; color: var(--text2); }
 .detail-row.bold { color: var(--green); font-weight: 700; }
 
-/* ===================== REPORTS ===================== */
 .reports-header {
   display: flex; align-items: center; justify-content: space-between;
   margin-bottom: 1.25rem; gap: 1rem; flex-wrap: wrap;
@@ -620,7 +596,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .reports-grid .card-full { grid-column: 1 / -1; }
 .reports-grid .card-half { grid-column: span 1; }
 
-/* ===================== ANIMATIONS ===================== */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -630,18 +605,14 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
   to   { transform: rotate(360deg); }
 }
 
-/* ===================== PRINT ===================== */
 @media print {
-  /* Hide everything; the JS print function writes a fresh #print-receipt div */
   body > *            { display: none !important; }
   #print-receipt      { display: block !important; }
-  /* Receipt typography */
   #print-receipt      { font-family: monospace; font-size: 11pt; color: #000; padding: 0; margin: 0; }
   #print-receipt *    { color: #000 !important; background: none !important; box-shadow: none !important; }
   @page { margin: 8mm; size: 80mm auto; }
 }
 
-/* ===================== RESPONSIVE ===================== */
 @media (max-width: 1100px) {
   .dashboard-grid { grid-template-columns: repeat(2, 1fr); }
   .card-half { grid-column: span 1; }
@@ -667,11 +638,7 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
   .report-stats { flex-direction: column; }
 }
 
-/* =====================================================================
-   EXTENDED STYLES — v2
-   ===================================================================== */
 
-/* ── Alert Strip ─────────────────────────────────────────────────── */
 .alert-strip {
   display: flex; align-items: center; flex-wrap: wrap; gap: .5rem;
   padding: .75rem 1.25rem; margin-bottom: 1rem;
@@ -683,10 +650,8 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .text-muted  { color: var(--text3) !important; }
 .count-badge { display:inline-block; background:var(--bg3); color:var(--text3); font-size:.75rem; font-weight:600; padding:1px 8px; border-radius:99px; margin-left:.5rem; }
 
-/* ── Table wrap (horizontal scroll) ─────────────────────────────── */
 .table-wrap { overflow-x: auto; }
 
-/* ── Product image thumb ─────────────────────────────────────────── */
 .img-cell { width: 52px; }
 .product-thumb { width:44px; height:44px; object-fit:cover; border-radius:6px; border:1px solid var(--border2); }
 .product-thumb-placeholder {
@@ -698,24 +663,18 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .image-preview-wrap { margin-top:.5rem; }
 .image-preview-wrap img { max-width:160px; max-height:120px; border-radius:var(--radius); border:1px solid var(--border2); object-fit:cover; }
 
-/* ── Popularity bar ──────────────────────────────────────────────── */
 .pop-bar { display:inline-block; width:60px; height:6px; background:var(--bg3); border-radius:3px; overflow:hidden; vertical-align:middle; margin-right:4px; }
 .pop-bar span { display:block; height:100%; background:var(--accent); border-radius:3px; }
 
-/* ── Form grid 3-col ─────────────────────────────────────────────── */
 .form-grid-3 { grid-template-columns: 1fr 1fr 1fr; }
 .form-label-inline { color:var(--text2); font-size:.8rem; font-weight:500; white-space:nowrap; }
 
-/* ── Code block ──────────────────────────────────────────────────── */
 .code-block { background:var(--bg3); border:1px solid var(--border); border-radius:var(--radius); padding:.75rem; font-size:.78rem; color:var(--text2); white-space:pre-wrap; word-break:break-all; margin-top:.5rem; }
 
-/* ── Modal LG ────────────────────────────────────────────────────── */
 .modal-lg { max-width: 680px; }
 
-/* ── Discount pill (history) ─────────────────────────────────────── */
 .discount-pill { display:inline-block; background:rgba(64,212,160,.12); color:var(--green); border:1px solid rgba(64,212,160,.2); padding:2px 8px; border-radius:99px; font-size:.75rem; font-weight:600; }
 
-/* ── Cart discount controls ──────────────────────────────────────── */
 .discount-row { display:flex; align-items:center; justify-content:space-between; margin-bottom:.25rem; }
 .discount-label { font-size:.8rem; color:var(--text2); }
 .discount-controls { display:flex; gap:.375rem; }
@@ -724,16 +683,13 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .cart-discount-row { display:flex; align-items:center; justify-content:space-between; color:var(--green); font-size:.875rem; }
 .total-final { font-size:1.15rem; font-family:var(--font-head); font-weight:800; color:var(--accent); }
 
-/* ── Receipt improvements ────────────────────────────────────────── */
 .receipt-cashier { color:var(--text3); font-size:.75rem; margin-top:.25rem; }
 .bold-row  { font-family:var(--font-head); font-weight:800; font-size:1rem; color:var(--text); }
 .change-row{ font-family:var(--font-head); font-weight:800; color:var(--green); }
 
-/* ── Product card improvements ───────────────────────────────────── */
 .product-card-img { width:100%; height:90px; object-fit:cover; border-radius:6px; margin-bottom:.5rem; }
 .product-card-hot { position:absolute; top:.5rem; right:.5rem; font-size:.7rem; background:rgba(240,192,64,.18); color:var(--accent); padding:2px 6px; border-radius:99px; font-weight:700; }
 
-/* ── Bundle section ──────────────────────────────────────────────── */
 .bundle-section { border-color: rgba(64,212,160,.25); }
 .bundle-strip { display:flex; gap:.75rem; padding:.75rem; overflow-x:auto; }
 .bundle-card { background:var(--bg3); border:1px solid rgba(64,212,160,.2); border-radius:var(--radius); padding:.875rem; min-width:200px; }
@@ -744,10 +700,8 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .bundle-suggest  { color:var(--green); font-weight:600; }
 .bundle-freq { font-size:.75rem; color:var(--text3); margin-top:.25rem; margin-bottom:.5rem; }
 
-/* ── Rec reason tag ──────────────────────────────────────────────── */
 .rec-reason { font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; color:var(--text3); margin-bottom:.2rem; }
 
-/* ── Inventory layout ────────────────────────────────────────────── */
 .inventory-layout { display:flex; flex-direction:column; gap:1rem; }
 .restock-panel {}
 .restock-grid { display:flex; flex-wrap:wrap; gap:.75rem; padding:1rem 1.25rem; }
@@ -758,7 +712,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .restock-meta    { display:flex; align-items:center; gap:.5rem; }
 .restock-supplier{ font-size:.75rem; }
 
-/* ── Inventory log type badges ───────────────────────────────────── */
 .type-badge { display:inline-block; padding:2px 8px; border-radius:99px; font-size:.72rem; font-weight:600; }
 .type-sale   { background:rgba(80,144,240,.12); color:var(--blue); }
 .type-add    { background:rgba(64,212,160,.12); color:var(--green); }
@@ -768,7 +721,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .qty-pos { color:var(--green); font-weight:600; }
 .qty-neg { color:var(--red);   font-weight:600; }
 
-/* ── Intelligence layout ─────────────────────────────────────────── */
 .intelligence-layout { display:flex; flex-direction:column; gap:1.25rem; }
 .intel-topbar { display:flex; align-items:center; justify-content:space-between; margin-bottom:.25rem; }
 .intel-title { font-family:var(--font-head); font-size:1.5rem; font-weight:800; color:var(--text); margin:0; }
@@ -784,14 +736,12 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .intel-card.accent .intel-card-value { color:var(--accent); }
 .intel-card-sub { font-size:.75rem; color:var(--text3); margin-top:.25rem; }
 
-/* Day-of-week bar chart */
 .dow-chart { display:flex; align-items:flex-end; gap:.75rem; padding:.75rem 0; height:110px; }
 .dow-bar-wrap { display:flex; flex-direction:column; align-items:center; gap:.25rem; flex:1; }
 .dow-count { font-size:.72rem; color:var(--text3); }
 .dow-bar { width:100%; background:var(--accent); border-radius:4px 4px 0 0; opacity:.7; min-height:4px; transition:height .4s ease; }
 .dow-label { font-size:.72rem; color:var(--text3); }
 
-/* ── Smart bundle table ──────────────────────────────────────────── */
 .bundle-table-grid { display:flex; flex-direction:column; gap:.75rem; padding:1rem 1.25rem; }
 .bundle-row-card { display:flex; align-items:center; justify-content:space-between; background:var(--bg3); border:1px solid var(--border2); border-radius:var(--radius); padding:.875rem; gap:1rem; flex-wrap:wrap; }
 .bundle-row-products { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
@@ -799,17 +749,13 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .bundle-row-meta { display:flex; flex-wrap:wrap; gap:.5rem 1rem; align-items:center; font-size:.82rem; }
 .green-text { color:var(--green); font-weight:600; }
 
-/* ── Btn group ───────────────────────────────────────────────────── */
 .btn-group { display:flex; gap:.5rem; flex-shrink:0; }
 
-/* ── History discount ────────────────────────────────────────────── */
 .form-label-inline + input { margin-left:.25rem; }
 
-/* ── Reports header improvements ────────────────────────────────── */
 .report-stats { display:flex; gap:1rem; flex-wrap:wrap; }
 .report-stats .stat-card { flex:1; min-width:160px; }
 
-/* ── Responsive additions ────────────────────────────────────────── */
 @media (max-width:1100px) {
   .intel-section-grid { grid-template-columns:repeat(2,1fr); }
   .intel-two-col { grid-template-columns:1fr; }
@@ -824,11 +770,7 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
   .intel-two-col { grid-template-columns:1fr; }
 }
 
-/* ─────────────────────────────────────────────────────────────────
-   EXTENDED STYLES — v3 (PairPal Intelligence + Customer Store)
-   ───────────────────────────────────────────────────────────────── */
 
-/* ── POS AI Panel ─────────────────────────────────────────────── */
 .pos-layout { display:grid; grid-template-columns:1fr 280px 340px; gap:1rem; height:calc(100vh - 56px - 3.5rem); }
 .pos-ai-panel { background:var(--bg2); border:1px solid rgba(240,192,64,.25); border-radius:var(--radius-lg); display:flex; flex-direction:column; overflow:hidden; }
 .ai-panel-header { display:flex; align-items:center; gap:.5rem; padding:.875rem 1rem; border-bottom:1px solid var(--border); background:rgba(240,192,64,.06); flex-shrink:0; }
@@ -859,24 +801,19 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .suggestion-reason { font-size:.7rem; color:var(--text3); }
 .suggestion-price { font-size:.82rem; color:var(--accent); font-family:var(--font-head); font-weight:700; white-space:nowrap; margin-left:.5rem; }
 
-/* ── Low stock tags on cart items ─────────────────────────────── */
 .cart-item-lowstock { border-color:rgba(240,128,64,.35) !important; background:rgba(240,128,64,.04) !important; }
 .product-card.low-stock-card { border-color:rgba(240,128,64,.35); }
 .product-card-low-tag { display:inline-block; background:rgba(240,128,64,.18); color:var(--orange); font-size:.65rem; font-weight:700; padding:1px 6px; border-radius:99px; white-space:nowrap; }
 .low-tag { display:inline-block; background:rgba(240,128,64,.15); color:var(--orange); font-size:.65rem; font-weight:700; padding:1px 5px; border-radius:99px; margin-left:.3rem; vertical-align:middle; }
 
-/* ── Receipt savings ──────────────────────────────────────────── */
 .receipt-savings { text-align:center; margin-top:.75rem; font-family:var(--font-head); font-weight:700; color:var(--green); font-size:1rem; }
 
-/* ── Orders page ──────────────────────────────────────────────── */
 .status-filter-tabs { display:flex; gap:.375rem; flex-wrap:wrap; }
 .status-tab { padding:.4rem .875rem; border-radius:99px; font-size:.78rem; font-weight:600; text-decoration:none; color:var(--text2); background:var(--bg3); border:1px solid var(--border); transition:all var(--transition); }
 .status-tab:hover,.status-tab.active { color:var(--accent); border-color:rgba(240,192,64,.35); background:rgba(240,192,64,.1); }
-/* status-select — see orders-table section below */
 .tracking-code-small { font-size:.72rem; color:var(--text3); background:var(--bg3); padding:1px 5px; border-radius:3px; }
 .bundle-tag-small { display:inline-block; background:rgba(64,212,160,.1); color:var(--green); border:1px solid rgba(64,212,160,.2); padding:1px 7px; border-radius:99px; font-size:.72rem; font-weight:500; }
 
-/* ── Bundles admin page ───────────────────────────────────────── */
 .bundles-admin-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:1rem; }
 .bundle-admin-card { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius-lg); padding:1.25rem; display:flex; flex-direction:column; gap:.75rem; }
 .bundle-admin-card.bundle-inactive { opacity:.55; }
@@ -889,12 +826,10 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .bundle-admin-meta { display:grid; grid-template-columns:1fr 1fr; gap:.3rem .75rem; font-size:.8rem; color:var(--text2); }
 .bundle-admin-actions { display:flex; gap:.5rem; padding-top:.25rem; border-top:1px solid var(--border); }
 
-/* ── Navigation additions ─────────────────────────────────────── */
 .nav-separator { height:1px; background:var(--border); margin:.5rem .75rem; }
 .nav-external { opacity:.65; }
 .nav-external:hover { opacity:1 !important; }
 
-/* ── Responsive v3 ────────────────────────────────────────────── */
 @media(max-width:1200px) {
   .pos-layout { grid-template-columns:1fr 260px; }
   .pos-ai-panel { display:none; }
@@ -905,7 +840,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
   .bundles-admin-grid { grid-template-columns:1fr; }
 }
 
-/* ── Login page additions ─────────────────────────────────────── */
 .login-store-link {
   margin-top: 1rem;
   text-align: center;
@@ -918,9 +852,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 }
 .login-store-link a:hover { color: var(--text2); }
 
-/* ─────────────────────────────────────────────────────────────────
-   LOGIN NOTIFICATION MODAL
-   ───────────────────────────────────────────────────────────────── */
 .login-notif-overlay {
     display: none;
     position: fixed; inset: 0; z-index: 500;
@@ -955,9 +886,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .notif-item-meta { color: var(--text3); font-size: .75rem; }
 .login-notif-footer { display: flex; align-items: center; justify-content: flex-end; gap: .625rem; padding: 1rem 1.5rem; border-top: 1px solid var(--border); flex-wrap: wrap; }
 
-/* ─────────────────────────────────────────────────────────────────
-   PAIRPAL NOTIF TOAST (bottom-right persistent)
-   ───────────────────────────────────────────────────────────────── */
 .pairpal-notif-toast {
     position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 490;
     background: var(--bg2); border: 1px solid rgba(240,192,64,.3);
@@ -984,12 +912,8 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 }
 .pairpal-notif-dismiss:hover { color: var(--red); }
 
-/* Ensure briefing modal uses display:flex when shown via JS */
 .login-notif-overlay[style*="flex"] { display: flex !important; }
 
-/* ─────────────────────────────────────────────────────────────────
-   ORDERS TABLE — dropdown constraint + search
-   ───────────────────────────────────────────────────────────────── */
 .orders-controls { align-items: flex-start; flex-wrap: wrap; gap: .75rem; }
 .orders-search-wrap { margin-left: auto; }
 .orders-search-input {
@@ -1003,20 +927,17 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
     border-color: var(--accent);
     box-shadow: 0 0 0 3px rgba(240,192,64,.12);
 }
-/* Orders table — fixed layout prevents action column stretching */
-/* Orders table — percentage widths fill space evenly, no fixed-column dominance */
 .orders-table { table-layout: auto; width: 100%; }
 .orders-table th, .orders-table td { vertical-align: middle; padding: .5rem .625rem; word-break: break-word; }
-.orders-table th:nth-child(1) { min-width: 90px;  width: 9%;  }   /* Order ID */
-.orders-table th:nth-child(2) { min-width: 80px;  width: 8%;  }   /* Tracking */
-.orders-table th:nth-child(3) { min-width: 120px; width: 18%; }   /* Customer */
-.orders-table th:nth-child(4) { min-width: 45px;  width: 5%;  }   /* Items */
-.orders-table th:nth-child(5) { min-width: 100px; width: 14%; }   /* Bundle */
-.orders-table th:nth-child(6) { min-width: 75px;  width: 8%;  }   /* Total */
-.orders-table th:nth-child(7) { min-width: 80px;  width: 9%;  }   /* Status */
-.orders-table th:nth-child(8) { min-width: 90px;  width: 10%; }   /* Date */
-.orders-table th:nth-child(9) { min-width: 110px; width: 12%; }   /* Actions */
-/* Action cell: stack Details button above select, never overflow */
+.orders-table th:nth-child(1) { min-width: 90px;  width: 9%;  }
+.orders-table th:nth-child(2) { min-width: 80px;  width: 8%;  }
+.orders-table th:nth-child(3) { min-width: 120px; width: 18%; }
+.orders-table th:nth-child(4) { min-width: 45px;  width: 5%;  }
+.orders-table th:nth-child(5) { min-width: 100px; width: 14%; }
+.orders-table th:nth-child(6) { min-width: 75px;  width: 8%;  }
+.orders-table th:nth-child(7) { min-width: 80px;  width: 9%;  }
+.orders-table th:nth-child(8) { min-width: 90px;  width: 10%; }
+.orders-table th:nth-child(9) { min-width: 110px; width: 12%; }
 .action-cell {
     white-space: normal;
     vertical-align: middle;
@@ -1033,11 +954,7 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
     width: 100%; display: block;
 }
 
-/* ─────────────────────────────────────────────────────────────────
-   NOTIFICATION CENTER + ACTIVITY LOG + REPORT CHARTS
-   ───────────────────────────────────────────────────────────────── */
 
-/* Nav badge */
 .notif-nav-badge {
     display:inline-flex; align-items:center; justify-content:center;
     background:var(--red); color:#fff;
@@ -1045,7 +962,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
     border-radius:99px; padding:0 4px; margin-left:.3rem; vertical-align:middle;
 }
 
-/* Notification center list */
 .notif-center-list { display:flex; flex-direction:column; gap:.5rem; }
 .notif-center-item {
     display:flex; align-items:flex-start; gap:.875rem;
@@ -1067,13 +983,9 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .notif-center-msg { font-size:.82rem; color:var(--text2); line-height:1.5; }
 .notif-center-actions { display:flex; gap:.375rem; flex-shrink:0; align-items:center; }
 
-/* Briefing panel link button */
 .briefing-notif-link { font-size:.78rem; color:var(--accent); text-decoration:none; padding:.25rem .5rem; border-radius:4px; }
 .briefing-notif-link:hover { background:rgba(240,192,64,.1); }
 
-/* ─────────────────────────────────────────────────────────────────
-   PAGINATION BAR
-   ───────────────────────────────────────────────────────────────── */
 .pagination-bar {
     display: flex; align-items: center; justify-content: space-between;
     padding: .75rem 0; flex-wrap: wrap; gap: .5rem;
@@ -1093,7 +1005,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
     color: var(--bg); font-weight: 700; cursor: default;
 }
 
-/* ── Bundle name input (inline rename) ────────────────────────────── */
 .bundle-name-input {
     background: var(--bg3); border: 1px solid var(--accent);
     color: var(--text); border-radius: var(--radius);
@@ -1101,7 +1012,6 @@ form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
     font-family: var(--font-body); outline: none; width: 220px;
 }
 
-/* ── Back-to-top button ──────────────────────────────────────────── */
 .back-to-top {
     position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 300;
     width: 36px; height: 36px; border-radius: 50%;
