@@ -1,0 +1,492 @@
+[
+    {
+        "id": "act_69dd655552884",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-13T23:51:17+02:00"
+    },
+    {
+        "id": "act_69dd68e371b80",
+        "type": "order_status",
+        "action": "Order ord_001 → processing",
+        "detail": "Customer: Juan Dela Cruz",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T00:06:27+02:00"
+    },
+    {
+        "id": "act_69dd690195f3c",
+        "type": "login",
+        "action": "User logged in: cashier",
+        "detail": "Role: user",
+        "user_id": "usr_002",
+        "user_name": "Jane Cashier",
+        "ip": "::1",
+        "created_at": "2026-04-14T00:06:57+02:00"
+    },
+    {
+        "id": "act_69dd692e77898",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T00:07:42+02:00"
+    },
+    {
+        "id": "act_69dd6992e7c2b",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Cold Brew Kit",
+        "detail": "Before: 18, After: 20, Change: +2",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T00:09:22+02:00"
+    },
+    {
+        "id": "act_69dd69e1288bb",
+        "type": "bundle_generate",
+        "action": "PairPal rebuilt: 6 bundle(s) generated",
+        "detail": "Triggered by: Admin User",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T00:10:41+02:00"
+    },
+    {
+        "id": "act_69dd6a0831a87",
+        "type": "bundle_generate",
+        "action": "PairPal rebuilt: 6 bundle(s) generated",
+        "detail": "Triggered by: Admin User",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T00:11:20+02:00"
+    },
+    {
+        "id": "act_69dd9bd28fd56",
+        "type": "sale",
+        "action": "Sale completed: ₱549.00",
+        "detail": "2 items · TXN txn_009",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T03:43:46+02:00"
+    },
+    {
+        "id": "act_69dd9be04cdc8",
+        "type": "bundle_generate",
+        "action": "PairPal rebuilt: 6 bundle(s) generated",
+        "detail": "Triggered by: Admin User",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T03:44:00+02:00"
+    },
+    {
+        "id": "act_69dd9bf0a8828",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Pour-Over Dripper",
+        "detail": "Before: 5, After: 15, Change: +10",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T03:44:16+02:00"
+    },
+    {
+        "id": "act_69dd9bf9be312",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Cinnamon Sticks",
+        "detail": "Before: 6, After: 25, Change: +19",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T03:44:25+02:00"
+    },
+    {
+        "id": "act_69dd9c4d9e414",
+        "type": "sale",
+        "action": "Sale completed: ₱481.50",
+        "detail": "3 items · TXN txn_010",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T03:45:49+02:00"
+    },
+    {
+        "id": "act_69dd9c79be4b3",
+        "type": "bundle_generate",
+        "action": "PairPal rebuilt: 8 bundle(s) generated",
+        "detail": "Triggered by: Admin User",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T03:46:33+02:00"
+    },
+    {
+        "id": "act_69dd9c84a167d",
+        "type": "bundle_generate",
+        "action": "PairPal rebuilt: 8 bundle(s) generated",
+        "detail": "Triggered by: Admin User",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-14T03:46:44+02:00"
+    },
+    {
+        "id": "act_69dec1b25b3cd",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T00:37:38+02:00"
+    },
+    {
+        "id": "act_69df870bbc096",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:39:39+02:00"
+    },
+    {
+        "id": "act_69df875ab9161",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Cold Brew Kit",
+        "detail": "Before: 20, After: 21, Change: +1",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:40:58+02:00"
+    },
+    {
+        "id": "act_69df875bc18b3",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Cold Brew Kit",
+        "detail": "Before: 21, After: 21, Change: +0",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:40:59+02:00"
+    },
+    {
+        "id": "act_69df875cf1d4b",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Cold Brew Kit",
+        "detail": "Before: 21, After: 21, Change: +0",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:41:00+02:00"
+    },
+    {
+        "id": "act_69df875d2f5a8",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Cold Brew Kit",
+        "detail": "Before: 21, After: 21, Change: +0",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:41:01+02:00"
+    },
+    {
+        "id": "act_69df875d67c79",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Cold Brew Kit",
+        "detail": "Before: 21, After: 21, Change: +0",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:41:01+02:00"
+    },
+    {
+        "id": "act_69df892c320cb",
+        "type": "sale",
+        "action": "Sale completed: ₱409.40",
+        "detail": "2 items · TXN txn_011",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:48:44+02:00"
+    },
+    {
+        "id": "act_69df896f19dff",
+        "type": "order_status",
+        "action": "Order ord_001 → shipped",
+        "detail": "Customer: Juan Dela Cruz",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:49:51+02:00"
+    },
+    {
+        "id": "act_69df89e15f89d",
+        "type": "order_status",
+        "action": "Order ord_002 → processing",
+        "detail": "Customer: Juan Dela Cruz",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T14:51:45+02:00"
+    },
+    {
+        "id": "act_69e006552b669",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-15T23:42:45+02:00"
+    },
+    {
+        "id": "act_69e076aa583e0",
+        "type": "order_status",
+        "action": "Order ord_003 → cancelled",
+        "detail": "Customer: Juan Dela Cruz",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-16T07:42:02+02:00"
+    },
+    {
+        "id": "act_69e0e19574ad6",
+        "type": "login",
+        "action": "User logged in: cashier",
+        "detail": "Role: user",
+        "user_id": "usr_002",
+        "user_name": "Jane Cashier",
+        "ip": "::1",
+        "created_at": "2026-04-16T15:18:13+02:00"
+    },
+    {
+        "id": "act_69e1606c7defd",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-17T00:19:24+02:00"
+    },
+    {
+        "id": "act_69e1ec2472bc1",
+        "type": "login",
+        "action": "User logged in: cashier",
+        "detail": "Role: user",
+        "user_id": "usr_002",
+        "user_name": "Jane Cashier",
+        "ip": "::1",
+        "created_at": "2026-04-17T10:15:32+02:00"
+    },
+    {
+        "id": "act_69e1ec36bc890",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-17T10:15:50+02:00"
+    },
+    {
+        "id": "act_69e232ffccc9a",
+        "type": "bundle_generate",
+        "action": "PairPal rebuilt: 8 bundle(s) generated",
+        "detail": "Triggered by: Admin User",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-17T15:17:51+02:00"
+    },
+    {
+        "id": "act_69e2ad0f8008e",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-17T23:58:39+02:00"
+    },
+    {
+        "id": "act_69e2ad814a930",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T00:00:33+02:00"
+    },
+    {
+        "id": "act_69e2ad94bdd41",
+        "type": "login",
+        "action": "User logged in: cashier",
+        "detail": "Role: user",
+        "user_id": "usr_002",
+        "user_name": "Jane Cashier",
+        "ip": "::1",
+        "created_at": "2026-04-18T00:00:52+02:00"
+    },
+    {
+        "id": "act_69e2ada231111",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T00:01:06+02:00"
+    },
+    {
+        "id": "act_69e2adb45c504",
+        "type": "bundle_generate",
+        "action": "PairPal rebuilt: 8 bundle(s) generated",
+        "detail": "Triggered by: Admin User",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T00:01:24+02:00"
+    },
+    {
+        "id": "act_69e2ae4c30291",
+        "type": "sale",
+        "action": "Sale completed: ₱535.00",
+        "detail": "2 items · TXN txn_012",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T00:03:56+02:00"
+    },
+    {
+        "id": "act_69e2ae8dbff23",
+        "type": "sale",
+        "action": "Sale completed: ₱305.00",
+        "detail": "2 items · TXN txn_013",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T00:05:01+02:00"
+    },
+    {
+        "id": "act_69e2aeece1284",
+        "type": "stock_adjust",
+        "action": "Stock adjusted: Espresso Roast Blend",
+        "detail": "Before: 38, After: 40, Change: +2",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T00:06:36+02:00"
+    },
+    {
+        "id": "act_69e2f0f14c747",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T10:48:17+08:00"
+    },
+    {
+        "id": "act_69e2f10b063ac",
+        "type": "sale",
+        "action": "Sale completed: ₱409.40",
+        "detail": "2 items · TXN txn_014",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T10:48:43+08:00"
+    },
+    {
+        "id": "act_69e2f132709eb",
+        "type": "login",
+        "action": "User logged in: cashier",
+        "detail": "Role: user",
+        "user_id": "usr_002",
+        "user_name": "Jane Cashier",
+        "ip": "::1",
+        "created_at": "2026-04-18T10:49:22+08:00"
+    },
+    {
+        "id": "act_69e2f14580175",
+        "type": "sale",
+        "action": "Sale completed: ₱294.40",
+        "detail": "2 items · TXN txn_015",
+        "user_id": "usr_002",
+        "user_name": "Jane Cashier",
+        "ip": "::1",
+        "created_at": "2026-04-18T10:49:41+08:00"
+    },
+    {
+        "id": "act_69e2f169a5688",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-18T10:50:17+08:00"
+    },
+    {
+        "id": "act_69e403749fdeb",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-19T06:19:32+08:00"
+    },
+    {
+        "id": "act_69e4038765905",
+        "type": "login",
+        "action": "User logged in: cashier",
+        "detail": "Role: user",
+        "user_id": "usr_002",
+        "user_name": "Jane Cashier",
+        "ip": "::1",
+        "created_at": "2026-04-19T06:19:51+08:00"
+    },
+    {
+        "id": "act_69e40392923db",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-19T06:20:02+08:00"
+    },
+    {
+        "id": "act_69e44be86eb26",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-19T11:28:40+08:00"
+    },
+    {
+        "id": "act_69e44c5edca96",
+        "type": "login",
+        "action": "User logged in: admin",
+        "detail": "Role: admin",
+        "user_id": "usr_001",
+        "user_name": "Admin User",
+        "ip": "::1",
+        "created_at": "2026-04-19T11:30:38+08:00"
+    }
+]

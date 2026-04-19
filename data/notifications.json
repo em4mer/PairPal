@@ -1,0 +1,123 @@
+[
+    {
+        "id": "notif_69dd68e371f6f",
+        "category": "order",
+        "title": "Order Processing: #ord_001",
+        "message": "Order from Juan Dela Cruz is now processing.",
+        "link": "index.php?page=orders",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-14T00:06:27+02:00"
+    },
+    {
+        "id": "notif_69dd6a3e7cd5c",
+        "category": "stock",
+        "title": "⚠️ Low Stock: Pour-Over Dripper",
+        "message": "Pour-Over Dripper has only 5 units remaining.",
+        "link": "index.php?page=inventory",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-14T00:12:14+02:00"
+    },
+    {
+        "id": "notif_69dd6a3e7d296",
+        "category": "stock",
+        "title": "⚠️ Low Stock: Cinnamon Sticks",
+        "message": "Cinnamon Sticks has only 6 units remaining.",
+        "link": "index.php?page=inventory",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-14T00:12:14+02:00"
+    },
+    {
+        "id": "notif_69df896f1a177",
+        "category": "order",
+        "title": "Order Shipped: #ord_001",
+        "message": "Order from Juan Dela Cruz is now shipped.",
+        "link": "index.php?page=orders",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-15T14:49:51+02:00"
+    },
+    {
+        "id": "notif_69df89e15fb19",
+        "category": "order",
+        "title": "Order Processing: #ord_002",
+        "message": "Order from Juan Dela Cruz is now processing.",
+        "link": "index.php?page=orders",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-15T14:51:45+02:00"
+    },
+    {
+        "id": "notif_69e076aa58753",
+        "category": "order",
+        "title": "Order Cancelled: #ord_003",
+        "message": "Order from Juan Dela Cruz is now cancelled.",
+        "link": "index.php?page=orders",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-16T07:42:02+02:00"
+    },
+    {
+        "id": "notif_69e160fc72dd0",
+        "category": "order",
+        "title": "New Order: #ord_004",
+        "message": "New order from Juan Dela Cruz — 1 item · ₱55.00",
+        "link": "index.php?page=orders",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-17T00:21:48+02:00"
+    },
+    {
+        "id": "notif_69e44be900aa0",
+        "category": "stock",
+        "title": "⚠️ Low Stock: Pour-Over Dripper",
+        "message": "Pour-Over Dripper has only 5 units remaining.",
+        "link": "index.php?page=inventory",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-19T11:28:41+08:00"
+    },
+    {
+        "id": "notif_69e44be900e04",
+        "category": "stock",
+        "title": "🚨 Critical: Almond Biscotti",
+        "message": "Almond Biscotti has only 3 units remaining.",
+        "link": "index.php?page=inventory",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-19T11:28:41+08:00"
+    },
+    {
+        "id": "notif_69e44be903b8f",
+        "category": "stock",
+        "title": "⚠️ Low Stock: Cinnamon Sticks",
+        "message": "Cinnamon Sticks has only 6 units remaining.",
+        "link": "index.php?page=inventory",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-19T11:28:41+08:00"
+    },
+    {
+        "id": "notif_69e44be906c9b",
+        "category": "stock",
+        "title": "🚨 Critical: Salted Caramel Granola",
+        "message": "Salted Caramel Granola has only 2 units remaining.",
+        "link": "index.php?page=inventory",
+        "meta": [],
+        "read": true,
+        "read_at": "2026-04-19T11:28:59+08:00",
+        "created_at": "2026-04-19T11:28:41+08:00"
+    }
+]

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Tea box -->
+  <rect x="45" y="50" width="110" height="120" rx="8" fill="#1a3020" stroke="#7ab648" stroke-width="1.5"/>
+  <!-- Box decoration top -->
+  <rect x="48" y="53" width="104" height="35" rx="5" fill="#243828"/>
+  <!-- Flower motif -->
+  <circle cx="100" cy="70" r="12" fill="none" stroke="#7ab648" stroke-width=".8" opacity=".5"/>
+  <circle cx="100" cy="70" r="6" fill="#7ab648" opacity=".3"/>
+  <circle cx="100" cy="58" r="5" fill="#7ab648" opacity=".25"/>
+  <circle cx="100" cy="82" r="5" fill="#7ab648" opacity=".25"/>
+  <circle cx="88" cy="70" r="5" fill="#7ab648" opacity=".25"/>
+  <circle cx="112" cy="70" r="5" fill="#7ab648" opacity=".25"/>
+  <!-- Label area -->
+  <rect x="52" y="95" width="96" height="68" rx="4" fill="rgba(122,182,72,0.08)"/>
+  <line x1="58" y1="108" x2="142" y2="108" stroke="#7ab648" stroke-width=".75" opacity=".4"/>
+  <line x1="58" y1="120" x2="142" y2="120" stroke="#7ab648" stroke-width=".75" opacity=".35"/>
+  <line x1="62" y1="132" x2="138" y2="132" stroke="#7ab648" stroke-width=".75" opacity=".3"/>
+  <line x1="62" y1="144" x2="138" y2="144" stroke="#7ab648" stroke-width=".75" opacity=".3"/>
+  <!-- Tea bag hanging out -->
+  <rect x="94" y="28" width="12" height="20" rx="3" fill="#243828" stroke="#7ab648" stroke-width=".8"/>
+  <line x1="100" y1="48" x2="100" y2="58" stroke="#7ab648" stroke-width=".8" stroke-dasharray="2,2"/>
+
+</svg>

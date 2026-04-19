@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Jar body -->
+  <rect x="58" y="75" width="84" height="90" rx="8" fill="rgba(201,150,40,.15)" stroke="#c9963a" stroke-width="1.5"/>
+  <!-- Honey inside - warm amber -->
+  <rect x="61" y="100" width="78" height="62" rx="6" fill="#c87a10" opacity=".7"/>
+  <rect x="61" y="100" width="78" height="8" fill="#d4880a" opacity=".8"/>
+  <!-- Jar neck -->
+  <rect x="68" y="62" width="64" height="20" rx="5" fill="rgba(201,150,40,.2)" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Lid -->
+  <rect x="64" y="50" width="72" height="18" rx="6" fill="#8B6914" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Drizzle on top -->
+  <path d="M95 62 Q100 55 105 62" fill="none" stroke="#c9963a" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <!-- Honeycomb on label -->
+  <polygon points="100,108 108,112 108,120 100,124 92,120 92,112" fill="none" stroke="#c9963a" stroke-width=".8" opacity=".5"/>
+  <polygon points="108,112 116,108 116,116 108,120" fill="none" stroke="#c9963a" stroke-width=".8" opacity=".3"/>
+  <polygon points="92,112 84,108 84,116 92,120" fill="none" stroke="#c9963a" stroke-width=".8" opacity=".3"/>
+  <!-- Honey drip down jar -->
+  <path d="M90 165 Q88 172 90 178" stroke="#c9963a" stroke-width="2" stroke-linecap="round" opacity=".4"/>
+  <path d="M110 162 Q112 170 110 176" stroke="#c9963a" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+  <!-- Ribbon on lid -->
+  <line x1="68" y1="58" x2="136" y2="58" stroke="#c9963a" stroke-width=".7" opacity=".4"/>
+
+</svg>

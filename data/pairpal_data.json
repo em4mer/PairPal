@@ -1,0 +1,117 @@
+[
+    {
+        "pair": "prd_001|prd_006",
+        "count": 4,
+        "last_seen": "2026-04-18T10:48:42+08:00"
+    },
+    {
+        "pair": "prd_009|prd_015",
+        "count": 3,
+        "last_seen": "2026-04-18T10:49:41+08:00"
+    },
+    {
+        "pair": "prd_003|prd_009",
+        "count": 2,
+        "last_seen": "2026-04-14T03:43:46+02:00"
+    },
+    {
+        "pair": "prd_003|prd_015",
+        "count": 1,
+        "last_seen": "2026-04-14T03:45:49+02:00"
+    },
+    {
+        "pair": "prd_001|prd_011",
+        "count": 1,
+        "last_seen": "2025-04-09T08:15:00Z"
+    },
+    {
+        "pair": "prd_006|prd_011",
+        "count": 1,
+        "last_seen": "2025-04-09T08:15:00Z"
+    },
+    {
+        "pair": "prd_009|prd_012",
+        "count": 1,
+        "last_seen": "2025-04-08T11:30:00Z"
+    },
+    {
+        "pair": "prd_012|prd_015",
+        "count": 1,
+        "last_seen": "2025-04-08T11:30:00Z"
+    },
+    {
+        "pair": "prd_004|prd_014",
+        "count": 1,
+        "last_seen": "2025-04-08T09:00:00Z"
+    },
+    {
+        "pair": "prd_004|prd_015",
+        "count": 1,
+        "last_seen": "2025-04-08T09:00:00Z"
+    },
+    {
+        "pair": "prd_014|prd_015",
+        "count": 1,
+        "last_seen": "2025-04-08T09:00:00Z"
+    },
+    {
+        "pair": "prd_001|prd_008",
+        "count": 1,
+        "last_seen": "2025-04-07T16:45:00Z"
+    },
+    {
+        "pair": "prd_001|prd_018",
+        "count": 1,
+        "last_seen": "2025-04-07T16:45:00Z"
+    },
+    {
+        "pair": "prd_008|prd_018",
+        "count": 1,
+        "last_seen": "2025-04-07T16:45:00Z"
+    },
+    {
+        "pair": "prd_003|prd_006",
+        "count": 1,
+        "last_seen": "2025-04-05T10:20:00Z"
+    },
+    {
+        "pair": "prd_003|prd_010",
+        "count": 1,
+        "last_seen": "2025-04-05T10:20:00Z"
+    },
+    {
+        "pair": "prd_006|prd_010",
+        "count": 1,
+        "last_seen": "2025-04-05T10:20:00Z"
+    },
+    {
+        "pair": "prd_001|prd_005",
+        "count": 1,
+        "last_seen": "2025-04-03T14:00:00Z"
+    },
+    {
+        "pair": "prd_001|prd_007",
+        "count": 1,
+        "last_seen": "2025-04-03T14:00:00Z"
+    },
+    {
+        "pair": "prd_005|prd_007",
+        "count": 1,
+        "last_seen": "2025-04-03T14:00:00Z"
+    },
+    {
+        "pair": "prd_002|prd_004",
+        "count": 1,
+        "last_seen": "2025-04-02T11:30:00Z"
+    },
+    {
+        "pair": "prd_001|prd_003",
+        "count": 1,
+        "last_seen": "2026-04-18T00:03:56+02:00"
+    },
+    {
+        "pair": "prd_006|prd_009",
+        "count": 1,
+        "last_seen": "2026-04-18T00:05:01+02:00"
+    }
+]

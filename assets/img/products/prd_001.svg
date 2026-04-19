@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Coffee bag -->
+  <rect x="55" y="50" width="90" height="110" rx="8" fill="#3d2e1a" stroke="#c9963a" stroke-width="1.5"/>
+  <rect x="65" y="62" width="70" height="40" rx="4" fill="#2a2416"/>
+  <!-- Coffee beans on label -->
+  <ellipse cx="85" cy="82" rx="9" ry="6" fill="#c9963a" opacity=".8" transform="rotate(-20,85,82)"/>
+  <line x1="85" y1="76" x2="85" y2="88" stroke="#1e1b14" stroke-width="1.2" transform="rotate(-20,85,82)"/>
+  <ellipse cx="115" cy="82" rx="9" ry="6" fill="#c9963a" opacity=".8" transform="rotate(20,115,82)"/>
+  <line x1="115" y1="76" x2="115" y2="88" stroke="#1e1b14" stroke-width="1.2" transform="rotate(20,115,82)"/>
+  <ellipse cx="100" cy="90" rx="9" ry="6" fill="#c9963a" opacity=".9"/>
+  <line x1="100" y1="84" x2="100" y2="96" stroke="#1e1b14" stroke-width="1.2"/>
+  <!-- Bag top fold -->
+  <path d="M55 80 Q100 70 145 80" fill="none" stroke="#c9963a" stroke-width="1" opacity=".4"/>
+  <rect x="72" y="112" width="56" height="4" rx="2" fill="#c9963a" opacity=".3"/>
+  <rect x="78" y="122" width="44" height="3" rx="1.5" fill="#c9963a" opacity=".2"/>
+  <rect x="82" y="131" width="36" height="3" rx="1.5" fill="#c9963a" opacity=".2"/>
+  <!-- Bag bottom -->
+  <rect x="60" y="148" width="80" height="8" rx="3" fill="#2a1f0e"/>
+
+</svg>

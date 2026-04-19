@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Bundle of sticks -->
+  <rect x="58" y="62" width="14" height="90" rx="5" fill="#8B4513" stroke="#c87941" stroke-width="1" transform="rotate(-8,65,107)"/>
+  <rect x="58" y="62" width="14" height="88" rx="5" fill="#7a3a10" stroke="#c87941" stroke-width=".8" transform="rotate(-8,65,107)" opacity=".6"/>
+  <rect x="75" y="58" width="14" height="94" rx="5" fill="#9B5523" stroke="#c87941" stroke-width="1" transform="rotate(-2,82,105)"/>
+  <rect x="90" y="60" width="14" height="90" rx="5" fill="#8B4513" stroke="#c87941" stroke-width="1" transform="rotate(5,97,105)"/>
+  <rect x="106" y="62" width="14" height="86" rx="5" fill="#7a3a10" stroke="#c87941" stroke-width=".8" transform="rotate(10,113,105)"/>
+  <rect x="120" y="64" width="12" height="82" rx="5" fill="#8B4513" stroke="#c87941" stroke-width=".8" transform="rotate(15,126,105)"/>
+  <!-- Spiral texture on main stick -->
+  <path d="M75 72 Q88 78 75 90 Q88 96 75 108 Q88 114 75 126 Q88 132 75 144" fill="none" stroke="#c87941" stroke-width=".8" opacity=".5"/>
+  <!-- Twine binding -->
+  <rect x="55" y="105" width="95" height="8" rx="3" fill="#c9963a" opacity=".5"/>
+  <line x1="100" y1="105" x2="100" y2="113" stroke="#c9963a" stroke-width="2" opacity=".6"/>
+  <!-- Star anise decoration -->
+  <circle cx="152" cy="85" r="12" fill="none" stroke="#c9963a" stroke-width=".8" opacity=".5"/>
+  <path d="M152 73 L152 97 M140 85 L164 85 M143 76 L161 94 M143 94 L161 76" stroke="#c9963a" stroke-width=".8" opacity=".5"/>
+  <circle cx="152" cy="85" r="4" fill="#c9963a" opacity=".3"/>
+
+</svg>

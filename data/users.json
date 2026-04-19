@@ -1,0 +1,22 @@
+[
+    {
+        "id": "usr_001",
+        "username": "admin",
+        "password": "$2y$10$UZTVrQkmJeP8GEQLVkhy0enfPoGtddM\/HLMp4jnN1cSZ1VtFQNZWK",
+        "name": "Admin User",
+        "role": "admin",
+        "email": "admin@pairpal.com",
+        "created_at": "2024-01-01T00:00:00Z",
+        "last_login": "2026-04-19T11:30:38+08:00"
+    },
+    {
+        "id": "usr_002",
+        "username": "cashier",
+        "password": "$2y$10$HZrov0vQn6LGktryzTyAF.YP9hGVdZF1TJefy\/S\/SlpNQDb50ZvGe",
+        "name": "Jane Cashier",
+        "role": "user",
+        "email": "cashier@pairpal.com",
+        "created_at": "2024-01-02T00:00:00Z",
+        "last_login": "2026-04-19T06:19:51+08:00"
+    }
+]

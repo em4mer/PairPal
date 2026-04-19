@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Tin can -->
+  <rect x="55" y="45" width="90" height="110" rx="8" fill="#2d3a20" stroke="#7ab648" stroke-width="1.5"/>
+  <!-- Lid -->
+  <rect x="52" y="38" width="96" height="16" rx="6" fill="#3a4a28" stroke="#7ab648" stroke-width="1.2"/>
+  <!-- Label band -->
+  <rect x="58" y="85" width="84" height="48" rx="0" fill="rgba(122,182,72,0.1)"/>
+  <line x1="58" y1="85" x2="142" y2="85" stroke="#7ab648" stroke-width=".75" opacity=".5"/>
+  <line x1="58" y1="133" x2="142" y2="133" stroke="#7ab648" stroke-width=".75" opacity=".5"/>
+  <!-- Matcha powder icon -->
+  <ellipse cx="100" cy="62" rx="24" ry="10" fill="#4a6a2a"/>
+  <!-- Whisk symbol -->
+  <line x1="100" y1="30" x2="100" y2="55" stroke="#c9963a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 55 Q88 62 88 70" fill="none" stroke="#c9963a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M100 55 Q112 62 112 70" fill="none" stroke="#c9963a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M100 57 Q92 63 93 71" fill="none" stroke="#c9963a" stroke-width="1" stroke-linecap="round" opacity=".6"/>
+  <path d="M100 57 Q108 63 107 71" fill="none" stroke="#c9963a" stroke-width="1" stroke-linecap="round" opacity=".6"/>
+  <!-- Lines on label -->
+  <line x1="68" y1="100" x2="132" y2="100" stroke="#7ab648" stroke-width=".75" opacity=".4"/>
+  <line x1="72" y1="110" x2="128" y2="110" stroke="#7ab648" stroke-width=".75" opacity=".4"/>
+  <line x1="68" y1="120" x2="132" y2="120" stroke="#7ab648" stroke-width=".75" opacity=".3"/>
+
+</svg>

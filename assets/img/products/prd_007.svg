@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Biscotti pieces -->
+  <!-- Main piece angled -->
+  <rect x="52" y="90" width="96" height="32" rx="6" fill="#c8a46a" transform="rotate(-8,100,106)"/>
+  <rect x="56" y="93" width="88" height="26" rx="4" fill="#d4b07a" transform="rotate(-8,100,106)"/>
+  <!-- Almond cuts on top -->
+  <ellipse cx="70" cy="100" rx="5" ry="3" fill="#a07040" transform="rotate(-8,70,100)"/>
+  <ellipse cx="90" cy="97" rx="4" ry="2.5" fill="#a07040" transform="rotate(-8,90,97)"/>
+  <ellipse cx="110" cy="97" rx="5" ry="3" fill="#a07040" transform="rotate(-8,110,97)"/>
+  <ellipse cx="128" cy="100" rx="4" ry="2.5" fill="#a07040" transform="rotate(-8,128,100)"/>
+  <!-- Cut face -->
+  <rect x="52" y="90" width="12" height="32" rx="3" fill="#b89060" transform="rotate(-8,58,106)"/>
+  <!-- Second biscotti behind -->
+  <rect x="48" y="110" width="96" height="30" rx="6" fill="#b89050" transform="rotate(5,96,125)" opacity=".7"/>
+  <!-- Coffee cup for dipping -->
+  <path d="M72 148 L128 148 L122 178 L78 178 Z" fill="#2a1a0a" stroke="#c9963a" stroke-width="1"/>
+  <path d="M128 156 Q140 156 140 164 Q140 172 128 172" fill="none" stroke="#c9963a" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="100" cy="148" rx="28" ry="5" fill="#3d2510"/>
+
+</svg>

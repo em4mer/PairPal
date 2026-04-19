@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" fill="#1e1b14" rx="12"/>
+  <!-- Bowl body -->
+  <path d="M28 80 Q28 136 80 136 Q132 136 132 80 Z" fill="#2d3a20" stroke="#7ab648" stroke-width="1.5"/>
+  <!-- Bowl rim -->
+  <ellipse cx="80" cy="80" rx="52" ry="12" fill="#3a4a28" stroke="#7ab648" stroke-width="1.5"/>
+  <!-- Matcha liquid surface -->
+  <ellipse cx="80" cy="80" rx="48" ry="10" fill="#4a6a2a"/>
+  <!-- Whisk foam pattern -->
+  <path d="M56 78 Q68 72 80 78 Q92 72 104 78" fill="none" stroke="#7ab648" stroke-width="1.2" opacity="0.7"/>
+  <path d="M62 82 Q74 76 86 82 Q98 76 104 82" fill="none" stroke="#7ab648" stroke-width="1" opacity="0.5"/>
+  <!-- Chasen (whisk) -->
+  <rect x="78" y="16" width="4" height="44" rx="2" fill="#c9963a" opacity="0.9"/>
+  <!-- Whisk tines -->
+  <path d="M80 48 Q72 56 72 66" fill="none" stroke="#c9963a" stroke-width="1.2" opacity="0.7"/>
+  <path d="M80 50 Q74 58 75 68" fill="none" stroke="#c9963a" stroke-width="1.2" opacity="0.7"/>
+  <path d="M80 50 Q86 58 85 68" fill="none" stroke="#c9963a" stroke-width="1.2" opacity="0.7"/>
+  <path d="M80 48 Q88 56 88 66" fill="none" stroke="#c9963a" stroke-width="1.2" opacity="0.7"/>
+  <!-- Powder tin on side -->
+  <rect x="104" y="96" width="26" height="32" rx="4" fill="#2a2a1e" stroke="#7ab648" stroke-width="1"/>
+  <rect x="106" y="100" width="22" height="6" rx="2" fill="#7ab648" opacity="0.3"/>
+  <path d="M108 110 L128 110" stroke="#7ab648" stroke-width="0.75" opacity="0.4"/>
+  <path d="M108 116 L124 116" stroke="#7ab648" stroke-width="0.75" opacity="0.4"/>
+  <!-- Matcha label -->
+  <rect x="30" y="96" width="26" height="32" rx="4" fill="#2a2a1e" stroke="#7ab648" stroke-width="1"/>
+  <path d="M32 104 L54 104" stroke="#7ab648" stroke-width="0.75" opacity="0.4"/>
+  <path d="M36 110 L50 110" stroke="#7ab648" stroke-width="0.75" opacity="0.4"/>
+  <path d="M34 116 L52 116" stroke="#7ab648" stroke-width="0.75" opacity="0.4"/>
+</svg>

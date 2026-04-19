@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Grinder body -->
+  <rect x="70" y="75" width="60" height="80" rx="6" fill="#2a2a2a" stroke="#c9963a" stroke-width="1.5"/>
+  <!-- Hopper top -->
+  <path d="M72 75 L128 75 L118 45 L82 45 Z" fill="#3a3a3a" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Hopper opening -->
+  <ellipse cx="100" cy="45" rx="18" ry="5" fill="#1e1e1e" stroke="#c9963a" stroke-width="1"/>
+  <!-- Handle -->
+  <line x1="128" y1="58" x2="158" y2="48" stroke="#c9963a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="158" cy="48" r="5" fill="#c9963a"/>
+  <circle cx="128" cy="58" r="4" fill="#3a3a3a" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Body details -->
+  <rect x="76" y="98" width="48" height="4" rx="2" fill="#c9963a" opacity=".3"/>
+  <rect x="78" y="108" width="44" height="26" rx="3" fill="#1e1e1e" opacity=".5"/>
+  <!-- Grounds drawer -->
+  <rect x="74" y="148" width="52" height="18" rx="3" fill="#3a2a1a" stroke="#c9963a" stroke-width=".8"/>
+  <rect x="82" y="152" width="36" height="3" rx="1.5" fill="#c9963a" opacity=".3"/>
+  <circle cx="100" cy="157" r="3" fill="#c9963a" opacity=".5"/>
+  <!-- Coffee bean in hopper -->
+  <ellipse cx="100" cy="56" rx="7" ry="5" fill="#c9963a" opacity=".6" transform="rotate(20,100,56)"/>
+  <line x1="100" y1="51" x2="100" y2="61" stroke="#1e1b14" stroke-width="1" transform="rotate(20,100,56)"/>
+
+</svg>

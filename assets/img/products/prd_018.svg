@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Filter pack box -->
+  <rect x="52" y="55" width="96" height="110" rx="6" fill="#f0e8d8" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Box top -->
+  <rect x="52" y="55" width="96" height="25" rx="6" fill="#e8dcc8"/>
+  <rect x="52" y="68" width="96" height="12" fill="#e8dcc8"/>
+  <!-- Stack of filters visible inside -->
+  <rect x="62" y="88" width="76" height="70" rx="3" fill="#fff8ee" opacity=".8"/>
+  <!-- Filter outline illustration -->
+  <path d="M80 105 L80 140 Q100 148 120 140 L120 105 Q100 98 80 105 Z" fill="rgba(201,150,58,.1)" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Filter fold lines -->
+  <line x1="100" y1="100" x2="100" y2="148" stroke="#c9963a" stroke-width=".8" opacity=".4"/>
+  <path d="M80 105 Q100 112 120 105" fill="none" stroke="#c9963a" stroke-width=".8" opacity=".4"/>
+  <!-- Stack depth lines -->
+  <line x1="64" y1="92" x2="136" y2="92" stroke="#c9963a" stroke-width=".5" opacity=".3"/>
+  <line x1="64" y1="96" x2="136" y2="96" stroke="#c9963a" stroke-width=".5" opacity=".2"/>
+  <!-- Label on box front -->
+  <rect x="56" y="88" width="88" height="68" rx="3" fill="none" stroke="#c9963a" stroke-width=".5" opacity=".3"/>
+  <!-- Count badge -->
+  <circle cx="154" cy="70" r="16" fill="#2a2416" stroke="#c9963a" stroke-width="1.2"/>
+  <text x="154" y="75" text-anchor="middle" font-size="12" fill="#c9963a" font-family="sans-serif" font-weight="bold">100</text>
+
+</svg>

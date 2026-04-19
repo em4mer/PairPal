@@ -1,0 +1,308 @@
+[
+    {
+        "id": "bnd_001",
+        "name": "Coffee Brewer's Starter Kit",
+        "product_ids": [
+            "prd_001",
+            "prd_005"
+        ],
+        "product_names": [
+            "Arabica Coffee Beans",
+            "Pour-Over Dripper"
+        ],
+        "frequency": 1,
+        "original_price": 710,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 56.8,
+        "bundle_price": 653.2,
+        "status": "active",
+        "auto_generated": true,
+        "created_at": "2025-04-09T00:00:00Z",
+        "updated_at": "2025-04-09T00:00:00Z",
+        "savings": 56.8
+    },
+    {
+        "id": "bnd_002",
+        "name": "Arabica Coffee Beans + Dark Chocolate Bar",
+        "product_ids": [
+            "prd_001",
+            "prd_006"
+        ],
+        "product_names": [
+            "Arabica Coffee Beans",
+            "Dark Chocolate Bar"
+        ],
+        "frequency": 4,
+        "original_price": 445,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 35.6,
+        "bundle_price": 409.4,
+        "status": "active",
+        "auto_generated": true,
+        "created_at": "2025-04-09T00:00:00Z",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "savings": 35.6
+    },
+    {
+        "id": "bnd_003",
+        "name": "Arabica Coffee Beans + Coffee Grinder Manual",
+        "product_ids": [
+            "prd_001",
+            "prd_008"
+        ],
+        "product_names": [
+            "Arabica Coffee Beans",
+            "Coffee Grinder Manual"
+        ],
+        "frequency": 2,
+        "original_price": 1070,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 85.6,
+        "bundle_price": 984.4,
+        "status": "active",
+        "auto_generated": true,
+        "created_at": "2025-04-09T00:00:00Z",
+        "updated_at": "2026-04-16T07:36:13+02:00",
+        "savings": 85.6
+    },
+    {
+        "id": "bnd_004",
+        "name": "Jasmine Green Tea + Honey Jar 250g",
+        "product_ids": [
+            "prd_009",
+            "prd_015"
+        ],
+        "product_names": [
+            "Jasmine Green Tea",
+            "Honey Jar 250g"
+        ],
+        "frequency": 3,
+        "original_price": 320,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 25.6,
+        "bundle_price": 294.4,
+        "status": "active",
+        "auto_generated": true,
+        "created_at": "2025-04-09T00:00:00Z",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "savings": 25.6
+    },
+    {
+        "id": "bnd_005",
+        "name": "Promo — Almond Biscotti + Dark Chocolate Bar",
+        "product_ids": [
+            "prd_006",
+            "prd_007"
+        ],
+        "product_names": [
+            "Almond Biscotti",
+            "Dark Chocolate Bar"
+        ],
+        "frequency": 1,
+        "original_price": 210,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 21,
+        "bundle_price": 189,
+        "status": "active",
+        "auto_generated": true,
+        "promo_type": "slow_mover",
+        "created_at": "2025-04-09T00:00:00Z",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "savings": 21
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-13T11:44:51+02:00",
+        "updated_at": "2026-04-13T11:44:51+02:00",
+        "name": "Arabica Coffee Beans + Coffee Filter Papers",
+        "product_ids": [
+            "prd_001",
+            "prd_018"
+        ],
+        "product_names": [
+            "Arabica Coffee Beans",
+            "Coffee Filter Papers"
+        ],
+        "frequency": 2,
+        "original_price": 365,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 29.2,
+        "savings": 29.2,
+        "bundle_price": 335.8,
+        "auto_generated": true,
+        "id": "bnd_006"
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-13T11:44:51+02:00",
+        "updated_at": "2026-04-14T03:46:44+02:00",
+        "name": "Promo — Arabica Coffee Beans + Espresso Roast Blend",
+        "product_ids": [
+            "prd_001",
+            "prd_014"
+        ],
+        "product_names": [
+            "Arabica Coffee Beans",
+            "Espresso Roast Blend"
+        ],
+        "frequency": 1,
+        "original_price": 680,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 68,
+        "savings": 68,
+        "bundle_price": 612,
+        "auto_generated": true,
+        "promo_type": "slow_mover",
+        "id": "bnd_007"
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-13T11:44:51+02:00",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "name": "Promo — Cold Brew Kit + Arabica Coffee Beans",
+        "product_ids": [
+            "prd_001",
+            "prd_002"
+        ],
+        "product_names": [
+            "Cold Brew Kit",
+            "Arabica Coffee Beans"
+        ],
+        "frequency": 1,
+        "original_price": 900,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 90,
+        "savings": 90,
+        "bundle_price": 810,
+        "auto_generated": true,
+        "promo_type": "slow_mover",
+        "id": "bnd_008"
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-13T11:44:51+02:00",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "name": "Tea Duo — Matcha Latte Mix + Jasmine Green Tea",
+        "product_ids": [
+            "prd_003",
+            "prd_009"
+        ],
+        "product_names": [
+            "Matcha Latte Mix",
+            "Jasmine Green Tea"
+        ],
+        "frequency": 2,
+        "original_price": 395,
+        "discount_type": "percent",
+        "discount_value": 5,
+        "discount_amount": 19.75,
+        "savings": 19.75,
+        "bundle_price": 375.25,
+        "auto_generated": true,
+        "promo_type": "slow_mover",
+        "id": "bnd_009"
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-13T11:44:51+02:00",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "name": "Promo — Reusable Tumbler + Coffee Filter Papers",
+        "product_ids": [
+            "prd_004",
+            "prd_018"
+        ],
+        "product_names": [
+            "Reusable Tumbler",
+            "Coffee Filter Papers"
+        ],
+        "frequency": 1,
+        "original_price": 495,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 49.5,
+        "savings": 49.5,
+        "bundle_price": 445.5,
+        "auto_generated": true,
+        "promo_type": "slow_mover",
+        "id": "bnd_010"
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-14T03:45:49+02:00",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "name": "Promo — Pour-Over Dripper + Reusable Tumbler",
+        "product_ids": [
+            "prd_004",
+            "prd_005"
+        ],
+        "product_names": [
+            "Pour-Over Dripper",
+            "Reusable Tumbler"
+        ],
+        "frequency": 1,
+        "original_price": 840,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 84,
+        "savings": 84,
+        "bundle_price": 756,
+        "auto_generated": true,
+        "promo_type": "slow_mover",
+        "id": "bnd_011"
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-15T14:48:44+02:00",
+        "updated_at": "2026-04-18T10:49:41+08:00",
+        "name": "Promo — Coffee Grinder Manual + Reusable Tumbler",
+        "product_ids": [
+            "prd_004",
+            "prd_008"
+        ],
+        "product_names": [
+            "Coffee Grinder Manual",
+            "Reusable Tumbler"
+        ],
+        "frequency": 1,
+        "original_price": 1200,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 120,
+        "savings": 120,
+        "bundle_price": 1080,
+        "auto_generated": true,
+        "promo_type": "slow_mover",
+        "id": "bnd_012"
+    },
+    {
+        "status": "active",
+        "created_at": "2026-04-15T14:50:55+02:00",
+        "updated_at": "2026-04-16T07:36:13+02:00",
+        "name": "Matcha Latte Mix + Honey Jar 250g",
+        "product_ids": [
+            "prd_003",
+            "prd_015"
+        ],
+        "product_names": [
+            "Matcha Latte Mix",
+            "Honey Jar 250g"
+        ],
+        "frequency": 2,
+        "original_price": 355,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 28.4,
+        "savings": 28.4,
+        "bundle_price": 326.6,
+        "auto_generated": true,
+        "id": "bnd_013"
+    }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Tall cold brew jar -->
+  <rect x="65" y="35" width="70" height="130" rx="10" fill="#1a2a3a" stroke="#c9963a" stroke-width="1.5"/>
+  <!-- Lid -->
+  <rect x="62" y="28" width="76" height="16" rx="6" fill="#2a3a4a" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Cold brew liquid -->
+  <rect x="68" y="80" width="64" height="80" fill="#2c1a0a"/>
+  <rect x="68" y="80" width="64" height="5" fill="#3d2510"/>
+  <!-- Ice cubes -->
+  <rect x="75" y="90" width="16" height="16" rx="3" fill="rgba(180,220,255,0.25)" stroke="rgba(180,220,255,0.4)" stroke-width="1"/>
+  <rect x="97" y="96" width="14" height="14" rx="3" fill="rgba(180,220,255,0.2)" stroke="rgba(180,220,255,0.35)" stroke-width="1"/>
+  <rect x="113" y="88" width="12" height="12" rx="3" fill="rgba(180,220,255,0.2)" stroke="rgba(180,220,255,0.35)" stroke-width="1"/>
+  <!-- Filter/strainer inside -->
+  <rect x="76" y="44" width="48" height="30" rx="4" fill="#2a3a4a" stroke="#c9963a" stroke-width="1" opacity=".7"/>
+  <line x1="82" y1="50" x2="82" y2="68" stroke="#c9963a" stroke-width=".7" opacity=".5"/>
+  <line x1="90" y1="50" x2="90" y2="68" stroke="#c9963a" stroke-width=".7" opacity=".5"/>
+  <line x1="100" y1="50" x2="100" y2="68" stroke="#c9963a" stroke-width=".7" opacity=".5"/>
+  <line x1="110" y1="50" x2="110" y2="68" stroke="#c9963a" stroke-width=".7" opacity=".5"/>
+  <line x1="118" y1="50" x2="118" y2="68" stroke="#c9963a" stroke-width=".7" opacity=".5"/>
+  <!-- Label -->
+  <rect x="70" y="130" width="60" height="22" rx="3" fill="rgba(201,150,58,.1)" stroke="#c9963a" stroke-width=".75" opacity=".6"/>
+  <line x1="78" y1="138" x2="122" y2="138" stroke="#c9963a" stroke-width=".7" opacity=".4"/>
+  <line x1="82" y1="144" x2="118" y2="144" stroke="#c9963a" stroke-width=".7" opacity=".3"/>
+
+</svg>

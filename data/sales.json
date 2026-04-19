@@ -1,0 +1,508 @@
+[
+    {
+        "id": "txn_001",
+        "cashier_id": "usr_002",
+        "cashier_name": "Jane Cashier",
+        "items": [
+            {
+                "product_id": "prd_001",
+                "name": "Arabica Coffee Beans",
+                "price": 320,
+                "quantity": 2,
+                "subtotal": 640
+            },
+            {
+                "product_id": "prd_006",
+                "name": "Dark Chocolate Bar",
+                "price": 125,
+                "quantity": 1,
+                "subtotal": 125
+            }
+        ],
+        "subtotal": 765,
+        "discount_type": "none",
+        "discount_value": 0,
+        "discount_amount": 0,
+        "total": 765,
+        "amount_paid": 1000,
+        "change": 235,
+        "date": "2025-04-01T09:15:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_002",
+        "cashier_id": "usr_002",
+        "cashier_name": "Jane Cashier",
+        "items": [
+            {
+                "product_id": "prd_002",
+                "name": "Cold Brew Kit",
+                "price": 580,
+                "quantity": 1,
+                "subtotal": 580
+            },
+            {
+                "product_id": "prd_004",
+                "name": "Reusable Tumbler",
+                "price": 450,
+                "quantity": 1,
+                "subtotal": 450
+            }
+        ],
+        "subtotal": 1030,
+        "discount_type": "none",
+        "discount_value": 0,
+        "discount_amount": 0,
+        "total": 1030,
+        "amount_paid": 1100,
+        "change": 70,
+        "date": "2025-04-02T11:30:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_003",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_001",
+                "name": "Arabica Coffee Beans",
+                "price": 320,
+                "quantity": 1,
+                "subtotal": 320
+            },
+            {
+                "product_id": "prd_005",
+                "name": "Pour-Over Dripper",
+                "price": 390,
+                "quantity": 1,
+                "subtotal": 390
+            },
+            {
+                "product_id": "prd_007",
+                "name": "Almond Biscotti",
+                "price": 85,
+                "quantity": 2,
+                "subtotal": 170
+            }
+        ],
+        "subtotal": 880,
+        "discount_type": "none",
+        "discount_value": 0,
+        "discount_amount": 0,
+        "total": 880,
+        "amount_paid": 900,
+        "change": 20,
+        "date": "2025-04-03T14:00:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_004",
+        "cashier_id": "usr_002",
+        "cashier_name": "Jane Cashier",
+        "items": [
+            {
+                "product_id": "prd_003",
+                "name": "Matcha Latte Mix",
+                "price": 215,
+                "quantity": 3,
+                "subtotal": 645
+            },
+            {
+                "product_id": "prd_006",
+                "name": "Dark Chocolate Bar",
+                "price": 125,
+                "quantity": 2,
+                "subtotal": 250
+            },
+            {
+                "product_id": "prd_010",
+                "name": "Oat Milk Carton",
+                "price": 95,
+                "quantity": 1,
+                "subtotal": 95
+            }
+        ],
+        "subtotal": 990,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 99,
+        "total": 891,
+        "amount_paid": 1000,
+        "change": 109,
+        "date": "2025-04-05T10:20:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_005",
+        "cashier_id": "usr_002",
+        "cashier_name": "Jane Cashier",
+        "items": [
+            {
+                "product_id": "prd_008",
+                "name": "Coffee Grinder Manual",
+                "price": 750,
+                "quantity": 1,
+                "subtotal": 750
+            },
+            {
+                "product_id": "prd_001",
+                "name": "Arabica Coffee Beans",
+                "price": 320,
+                "quantity": 2,
+                "subtotal": 640
+            },
+            {
+                "product_id": "prd_018",
+                "name": "Coffee Filter Papers",
+                "price": 45,
+                "quantity": 2,
+                "subtotal": 90
+            }
+        ],
+        "subtotal": 1480,
+        "discount_type": "none",
+        "discount_value": 0,
+        "discount_amount": 0,
+        "total": 1480,
+        "amount_paid": 1500,
+        "change": 20,
+        "date": "2025-04-07T16:45:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_006",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_014",
+                "name": "Espresso Roast Blend",
+                "price": 360,
+                "quantity": 2,
+                "subtotal": 720
+            },
+            {
+                "product_id": "prd_004",
+                "name": "Reusable Tumbler",
+                "price": 450,
+                "quantity": 1,
+                "subtotal": 450
+            },
+            {
+                "product_id": "prd_015",
+                "name": "Honey Jar 250g",
+                "price": 140,
+                "quantity": 1,
+                "subtotal": 140
+            }
+        ],
+        "subtotal": 1310,
+        "discount_type": "fixed",
+        "discount_value": 100,
+        "discount_amount": 100,
+        "total": 1210,
+        "amount_paid": 1500,
+        "change": 290,
+        "date": "2025-04-08T09:00:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_007",
+        "cashier_id": "usr_002",
+        "cashier_name": "Jane Cashier",
+        "items": [
+            {
+                "product_id": "prd_009",
+                "name": "Jasmine Green Tea",
+                "price": 180,
+                "quantity": 2,
+                "subtotal": 360
+            },
+            {
+                "product_id": "prd_012",
+                "name": "Coconut Sugar",
+                "price": 65,
+                "quantity": 3,
+                "subtotal": 195
+            },
+            {
+                "product_id": "prd_015",
+                "name": "Honey Jar 250g",
+                "price": 140,
+                "quantity": 1,
+                "subtotal": 140
+            }
+        ],
+        "subtotal": 695,
+        "discount_type": "none",
+        "discount_value": 0,
+        "discount_amount": 0,
+        "total": 695,
+        "amount_paid": 700,
+        "change": 5,
+        "date": "2025-04-08T11:30:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_008",
+        "cashier_id": "usr_002",
+        "cashier_name": "Jane Cashier",
+        "items": [
+            {
+                "product_id": "prd_001",
+                "name": "Arabica Coffee Beans",
+                "price": 320,
+                "quantity": 1,
+                "subtotal": 320
+            },
+            {
+                "product_id": "prd_011",
+                "name": "French Press 350ml",
+                "price": 680,
+                "quantity": 1,
+                "subtotal": 680
+            },
+            {
+                "product_id": "prd_006",
+                "name": "Dark Chocolate Bar",
+                "price": 125,
+                "quantity": 2,
+                "subtotal": 250
+            }
+        ],
+        "subtotal": 1250,
+        "discount_type": "percent",
+        "discount_value": 5,
+        "discount_amount": 62.5,
+        "total": 1187.5,
+        "amount_paid": 1200,
+        "change": 12.5,
+        "date": "2025-04-09T08:15:00Z",
+        "status": "completed"
+    },
+    {
+        "id": "txn_009",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_003",
+                "name": "Matcha Latte Mix",
+                "price": 215,
+                "quantity": 2,
+                "subtotal": 430
+            },
+            {
+                "product_id": "prd_009",
+                "name": "Jasmine Green Tea",
+                "price": 180,
+                "quantity": 1,
+                "subtotal": 180
+            }
+        ],
+        "subtotal": 610,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 61,
+        "bundle_name": "Promo — Matcha Latte Mix + Jasmine Green Tea",
+        "total": 549,
+        "amount_paid": 600,
+        "change": 51,
+        "date": "2026-04-14T03:43:46+02:00",
+        "status": "completed"
+    },
+    {
+        "id": "txn_010",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_009",
+                "name": "Jasmine Green Tea",
+                "price": 180,
+                "quantity": 1,
+                "subtotal": 180
+            },
+            {
+                "product_id": "prd_015",
+                "name": "Honey Jar 250g",
+                "price": 140,
+                "quantity": 1,
+                "subtotal": 140
+            },
+            {
+                "product_id": "prd_003",
+                "name": "Matcha Latte Mix",
+                "price": 215,
+                "quantity": 1,
+                "subtotal": 215
+            }
+        ],
+        "subtotal": 535,
+        "discount_type": "percent",
+        "discount_value": 10,
+        "discount_amount": 53.5,
+        "bundle_name": "Promo — Matcha Latte Mix + Jasmine Green Tea",
+        "total": 481.5,
+        "amount_paid": 500,
+        "change": 18.5,
+        "date": "2026-04-14T03:45:49+02:00",
+        "status": "completed"
+    },
+    {
+        "id": "txn_011",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_006",
+                "name": "Dark Chocolate Bar",
+                "price": 125,
+                "quantity": 1,
+                "subtotal": 125
+            },
+            {
+                "product_id": "prd_001",
+                "name": "Arabica Coffee Beans",
+                "price": 320,
+                "quantity": 1,
+                "subtotal": 320
+            }
+        ],
+        "subtotal": 445,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 35.6,
+        "bundle_name": "Arabica Coffee Beans + Dark Chocolate Bar",
+        "total": 409.4,
+        "amount_paid": 450,
+        "change": 40.60000000000002,
+        "date": "2026-04-15T14:48:44+02:00",
+        "status": "completed"
+    },
+    {
+        "id": "txn_012",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_003",
+                "name": "Matcha Latte Mix",
+                "price": 215,
+                "quantity": 1,
+                "subtotal": 215
+            },
+            {
+                "product_id": "prd_001",
+                "name": "Arabica Coffee Beans",
+                "price": 320,
+                "quantity": 1,
+                "subtotal": 320
+            }
+        ],
+        "subtotal": 535,
+        "discount_type": "none",
+        "discount_value": 0,
+        "discount_amount": 0,
+        "bundle_name": "",
+        "total": 535,
+        "amount_paid": 600,
+        "change": 65,
+        "date": "2026-04-18T00:03:56+02:00",
+        "status": "completed"
+    },
+    {
+        "id": "txn_013",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_009",
+                "name": "Jasmine Green Tea",
+                "price": 180,
+                "quantity": 1,
+                "subtotal": 180
+            },
+            {
+                "product_id": "prd_006",
+                "name": "Dark Chocolate Bar",
+                "price": 125,
+                "quantity": 1,
+                "subtotal": 125
+            }
+        ],
+        "subtotal": 305,
+        "discount_type": "none",
+        "discount_value": 0,
+        "discount_amount": 0,
+        "bundle_name": "",
+        "total": 305,
+        "amount_paid": 350,
+        "change": 45,
+        "date": "2026-04-18T00:05:01+02:00",
+        "status": "completed"
+    },
+    {
+        "id": "txn_014",
+        "cashier_id": "usr_001",
+        "cashier_name": "Admin User",
+        "items": [
+            {
+                "product_id": "prd_006",
+                "name": "Dark Chocolate Bar",
+                "price": 125,
+                "quantity": 1,
+                "subtotal": 125
+            },
+            {
+                "product_id": "prd_001",
+                "name": "Arabica Coffee Beans",
+                "price": 320,
+                "quantity": 1,
+                "subtotal": 320
+            }
+        ],
+        "subtotal": 445,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 35.6,
+        "bundle_name": "Arabica Coffee Beans + Dark Chocolate Bar",
+        "total": 409.4,
+        "amount_paid": 410,
+        "change": 0.6000000000000227,
+        "date": "2026-04-18T10:48:42+08:00",
+        "status": "completed"
+    },
+    {
+        "id": "txn_015",
+        "cashier_id": "usr_002",
+        "cashier_name": "Jane Cashier",
+        "items": [
+            {
+                "product_id": "prd_015",
+                "name": "Honey Jar 250g",
+                "price": 140,
+                "quantity": 1,
+                "subtotal": 140
+            },
+            {
+                "product_id": "prd_009",
+                "name": "Jasmine Green Tea",
+                "price": 180,
+                "quantity": 1,
+                "subtotal": 180
+            }
+        ],
+        "subtotal": 320,
+        "discount_type": "percent",
+        "discount_value": 8,
+        "discount_amount": 25.6,
+        "bundle_name": "Jasmine Green Tea + Honey Jar 250g",
+        "total": 294.4,
+        "amount_paid": 300,
+        "change": 5.600000000000023,
+        "date": "2026-04-18T10:49:41+08:00",
+        "status": "completed"
+    }
+]

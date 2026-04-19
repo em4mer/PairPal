@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1e1b14" rx="10"/>
+
+  <!-- Carton body -->
+  <rect x="60" y="55" width="80" height="110" rx="4" fill="#f5f0e8" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Carton top triangle fold -->
+  <path d="M60 55 L100 35 L140 55 Z" fill="#ece6d8" stroke="#c9963a" stroke-width="1.2"/>
+  <!-- Colored band -->
+  <rect x="60" y="100" width="80" height="40" fill="#d4c9a8"/>
+  <!-- Oat illustration -->
+  <ellipse cx="85" cy="80" rx="10" ry="6" fill="#c9963a" opacity=".4" transform="rotate(-15,85,80)"/>
+  <ellipse cx="100" cy="75" rx="10" ry="6" fill="#c9963a" opacity=".4" transform="rotate(5,100,75)"/>
+  <ellipse cx="115" cy="80" rx="10" ry="6" fill="#c9963a" opacity=".4" transform="rotate(15,115,80)"/>
+  <!-- Lines on band -->
+  <line x1="68" y1="112" x2="132" y2="112" stroke="rgba(100,80,40,.3)" stroke-width=".8"/>
+  <line x1="68" y1="122" x2="132" y2="122" stroke="rgba(100,80,40,.3)" stroke-width=".8"/>
+  <line x1="68" y1="132" x2="132" y2="132" stroke="rgba(100,80,40,.3)" stroke-width=".8"/>
+  <!-- Bottom -->
+  <rect x="60" y="155" width="80" height="10" rx="0" fill="#ece6d8"/>
+  <!-- Cap -->
+  <rect x="84" y="32" width="32" height="14" rx="4" fill="#c9963a" opacity=".8"/>
+
+</svg>

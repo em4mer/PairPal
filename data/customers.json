@@ -1,0 +1,15 @@
+[
+    {
+        "id": "cust_001",
+        "username": "juandc",
+        "password": "$2y$10$ir6ZMjiIhXBL3lSYqG64oOTcSCuz\/\/je7c0hc9KnnNh1gmz4dx\/Fu",
+        "name": "Juan Dela Cruz",
+        "email": "juan@gmail.com",
+        "role": "customer",
+        "address": "0555 At that address over there",
+        "contact": "09852758263",
+        "wishlist": "[\"prd_002\",\"prd_003\",\"prd_008\"]",
+        "created_at": "2026-04-11T13:43:56+02:00",
+        "last_login": "2026-04-19T06:19:21+08:00"
+    }
+]
